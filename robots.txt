@@ -1,0 +1,11 @@
+#  Elvané — robots.txt
+
+User-agent: *
+Allow: /
+
+# Don't index internal/asset paths that aren't useful for search
+Disallow: /.claude/
+Disallow: /.DS_Store
+
+# Sitemap
+Sitemap: https://elvaneclothing.com/sitemap.xml

@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Static Server (npx serve)",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "serve", "/Users/whizhack/Desktop/Codes/Personal Project/Elvane_Store", "-l", "3000", "--no-clipboard"],
+      "port": 3000
+    },
+    {
+      "name": "Static Server (http-server)",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["--yes", "http-server", "/Users/whizhack/Desktop/Codes/Personal Project/Elvane_Store", "-p", "8080", "-c-1"],
+      "port": 8080
+    }
+  ]
+}
